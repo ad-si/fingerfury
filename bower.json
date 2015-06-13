@@ -1,0 +1,29 @@
+{
+  "name": "fingerfury",
+  "version": "0.1.0",
+  "authors": [
+    "adius <mail@adriansieber.com>"
+  ],
+  "description": "Learn and train to touch type",
+  "main": "index.html",
+  "keywords": [
+    "touch",
+    "typing",
+    "touch",
+    "type",
+    "typing"
+  ],
+  "license": "MIt",
+  "homepage": "http://adriansieber.com/fingerfury",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mousetrap": "~1.4.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"name": "fingerfury",
+	"version": "0.1.0",
+	"description": "Learn and train to touch type",
+	"main": "bin/cli.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/adius/fingerfury.git"
+	},
+	"keywords": [
+		"touch",
+		"typing",
+		"touch",
+		"type",
+		"typing"
+	],
+	"author": {
+		"name": "Adrian Sieber",
+		"email": "mail@adriansieber.com",
+		"url": "http://adriansieber.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/adius/fingerfury/issues"
+	},
+	"homepage": "https://github.com/adius/fingerfury"
+}
