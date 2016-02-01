@@ -1,27 +1,33 @@
 {
-	"name": "fingerfury",
-	"version": "0.1.0",
-	"description": "Learn and train to touch type",
-	"main": "bin/cli.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/adius/fingerfury.git"
-	},
-	"keywords": [
-		"touch",
-		"typing",
-		"touch",
-		"type",
-		"typing"
-	],
-	"author": {
-		"name": "Adrian Sieber",
-		"email": "mail@adriansieber.com",
-		"url": "http://adriansieber.com"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/adius/fingerfury/issues"
-	},
-	"homepage": "https://github.com/adius/fingerfury"
+  "name": "fingerfury",
+  "version": "0.1.0",
+  "description": "Endless scrolling touch typing game",
+  "main": "bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adius/fingerfury.git"
+  },
+  "keywords": [
+    "touch",
+    "typing",
+    "touch",
+    "type",
+    "typing"
+  ],
+  "author": "Adrian Sieber <mail@adriansieber.com> (http://adriansieber.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adius/fingerfury/issues"
+  },
+  "homepage": "https://github.com/adius/fingerfury",
+  "dependencies": {
+    "mousetrap": "^1.5.3"
+  },
+  "bin": {
+    "fingerfury": "cli.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
