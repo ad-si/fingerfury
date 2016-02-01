@@ -71,8 +71,6 @@
 
 		function enterChar(event) {
 
-			console.log(event)
-
 			typedString += String.fromCharCode(event.which)
 
 			document
@@ -109,10 +107,7 @@
 				Mousetrap.unbind('enter')
 
 				Mousetrap.bind('backspace', function (e) {
-
 					e.preventDefault()
-
-					console.log('test')
 					removeChar()
 				})
 
@@ -173,8 +168,6 @@
 		for (var i = 0; i < minOffset; i++) {
 			typingString = " " + typingString
 		}
-
-		console.log(typingString)
 
 		return this
 	}
