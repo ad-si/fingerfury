@@ -5,7 +5,7 @@
   "main": "bin/cli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adius/fingerfury.git"
+    "url": "git+https://github.com/ad-si/fingerfury.git"
   },
   "keywords": [
     "touch",
@@ -17,11 +17,11 @@
   "author": "Adrian Sieber <mail@adriansieber.com> (http://adriansieber.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adius/fingerfury/issues"
+    "url": "https://github.com/ad-si/fingerfury/issues"
   },
-  "homepage": "https://github.com/adius/fingerfury",
+  "homepage": "https://github.com/ad-si/fingerfury",
   "dependencies": {
-    "mousetrap": "^1.5.3"
+    "mousetrap": "^1.6.5"
   },
   "bin": {
     "fingerfury": "cli.js"

@@ -2,6 +2,8 @@
 
 Endless scrolling touch typing game.
 
+![Screenshot of FingerFury](screenshot.png)
+
 
 ## Setup
 
